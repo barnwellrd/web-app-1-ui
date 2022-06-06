@@ -1,0 +1,4 @@
+<div *ngFor="let message of messages">
+    <label for="text">Message Text: </label>
+    <input id="text" [(ngModel)]="message.text" placeholder="text">
+</div>
